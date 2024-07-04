@@ -45,7 +45,6 @@ const LocationTracker = () => {
 
   return (
     <div>
-      <h1>Current Location</h1>
       {error ? (
         <p>Error: {error}</p>
       ) : (
